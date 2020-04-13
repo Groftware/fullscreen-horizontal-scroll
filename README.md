@@ -1,10 +1,10 @@
 **Table of contents** 
 
 * [Insallation](#installation)
-* [FAQ](#faq)
+* [Why making such component?](#whymake)
 * [How it works](#howitworks)
 * [Usage](#usage)
-* [Why making such component?](#whymake)
+* [FAQ](#faq)
 
 A component that helps developer to create an element that scroll horizontally using vertical scroll with fullscreen view. It only starts to scroll horizontally when the scroll/view reaches the element.
 
@@ -27,6 +27,14 @@ yarn add @groftware/fullscreen-horizontal-scroll
 ```
 
 <a name="howitworks"/>
+
+<a name="whymake"/>
+
+## Why making such component?
+
+We wanted to have this feature for our website UI/UX, and therefore we search for the solution and created this component. Is not the best solution but it solve our company's problem, and therefore we hope that it can solve yours too! 
+
+You may refer to our website [https://groftware.tech/](https://groftware.tech/) to test the component, click on the **Experience** tab in the navbar and try scrolling it! 🎉
 
 ## How it works?
 It takes the children width in containers and apply the height to the wrapper. So when user scrolls vertically, it uses HTML DOM property; which is `scrollLeft`, to mimic the horizontal scroll.  
@@ -86,15 +94,6 @@ import FullScreenHorizontalScroll from '@groftware/fullscreen-horizontal-scroll'
 		<td>vertically center the container and it's child element </td>
 	</tr>
 </table>
-
-<a name="whymake"/>
-
-## Why making such component?
-
-We wanted to have this feature for our website UI/UX, and therefore we search for the solution and created this component. Is not the best solution but it solve our company's problem, and therefore we hope that it can solve yours too! 
-
-You may refer to our website [https://groftware.tech/](https://groftware.tech/) to test the component, click on the **Experience** tab in the navbar and try scrolling it! 🎉
-
 
 <a name="faq"/>
 
