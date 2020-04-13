@@ -14,6 +14,7 @@ A component that helps developer to create an element that scroll horizontally u
 *  Scrolls horitonzally as accurate as your vertical scroll 🖱 
 
 <a name="installation"/>
+
 ## Installation
 
 ``` 
@@ -26,8 +27,11 @@ yarn add @groftware/fullscreen-horizontal-scroll
 ```
 
 <a name="howitworks"/>
+
 ## How it works?
 It takes the children width in containers and apply the height to the wrapper. So when user scrolls vertically, it uses HTML DOM property; which is `scrollLeft`, to mimic the horizontal scroll.  
+
+<a name="howitworks"/>
 
 ## Usage
 
@@ -84,14 +88,18 @@ import FullScreenHorizontalScroll from '@groftware/fullscreen-horizontal-scroll'
 </table>
 
 <a name="whymake"/>
+
 ## Why making such component?
+
 We wanted to have this feature for our website UI/UX, and therefore we search for the solution and created this component. Is not the best solution but it solve our company's problem, and therefore we hope that it can solve yours too! 
 
 You may refer to our website [https://groftware.tech/](https://groftware.tech/) to test the component, click on the **Experience** tab in the navbar and try scrolling it! 🎉
 
 
 <a name="faq"/>
+
 ## FAQ
+
 1. Why is my element stretched to window height?
 
 	The container uses `display:flex` and `height: 100vh` along with `maxHeight: 100vh` to achieve fullscreen. And so the height of the element fills the available height by default. Define a height for your element if you do not want the height to be stretch. This problem does not apply to the element's children.
