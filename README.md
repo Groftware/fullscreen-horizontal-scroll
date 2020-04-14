@@ -40,13 +40,13 @@ import FullScreenHorizontalScroll from '@groftware/fullscreen-horizontal-scroll'
 
 <div>
   <div style={{ backgroundColor: 'black', width: 1500, height: 100 }} />
-  <HorizontalScroll>
+  <FullScreenHorizontalScroll>
     {/* Elements that you want to display in the horizontal scroll */}
     <div style={{ border: '10px solid black', height: 200 }}>
       <div style={{ border: '10px solid red', width: 1500, height: 100 }} />
     </div>
     <div style={{ border: '10px solid black', width: 1500, height: 100 }} />
-  </HorizontalScroll>
+  </FullScreenHorizontalScroll>
   <div style={{ backgroundColor: 'black', width: 1500, height: 100 }} />
 </div>
 ```
