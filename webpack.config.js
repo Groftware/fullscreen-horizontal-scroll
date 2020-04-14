@@ -17,4 +17,10 @@ module.exports = {
       },
     ],
   },
+  // alias: {
+  //   react: path.resolve('./node_modules/react')
+  // }
+  externals: {
+    'react': 'commonjs react' 
+  }
 };
