@@ -43,7 +43,9 @@ const FullScreenHorizontalScroll = ({
     const percent = (scrollProgress / (height - eClientHeight)).toFixed(2);
     const scroll = percent * scrollLength;
 
-    elem.scrollLeft = scroll;
+    if (elemTop > wrapperTopOffset) {
+      elem.scrollLeft = scroll;
+    }
   };
 
   useEffect(() => {

@@ -1,6 +1,6 @@
 {
     "name": "@groftware/fullscreen-horizontal-scroll",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "A component that has fullscreen experience and scrolls content horizontally with vertical scroll",
     "keywords": ["responsive","horizontalScroll","react"],
     "main": "./lib/scroll.js",
